@@ -30,6 +30,7 @@ export const Calculator: React.FC = () => {
             }
         }
         setNumber(eval(res.current));
+        res.current = '';
     };
 
     return (
